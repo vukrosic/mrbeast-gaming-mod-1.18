@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "mrbeastgamingmod",
+  "version": "${version}",
+
+  "name": "MrBeast Gaming Mod",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "Jensen404"
+  ],
+  "contact": {
+    "twitter": "https://twitter.com/Jensen404",
+    "discord": "Jensen404#0367"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/mrbeastgamingmod/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.jensen404.mrbeastgamingmod.MrbeastGamingMod"
+    ]
+  },
+  "mixins": [
+    "mrbeastgamingmod.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
